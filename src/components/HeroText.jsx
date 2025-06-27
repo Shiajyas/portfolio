@@ -16,11 +16,11 @@ export const HeroText = () => {
       {/* Desktop View */}
         <div className="flex-col hidden md:flex c-space">
                 <motion.h1
-                className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-storm via-royal to-indigo"
+                className="text-6xl font-bold bg-clip-text"
                 variants={variants}
                 initial= "hidden"
                 animate= "visible"
-                transition={{ delay: 1}}
+                transition={{ delay: 0.7}}
                 >
                     Hi I'm Shijay
                 </motion.h1>
