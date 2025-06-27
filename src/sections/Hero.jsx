@@ -1,5 +1,6 @@
 
 import { HeroText } from "@/components/HeroText"
+import ParallaxBackground from "@/components/ParallaxBackground"
 export const Hero = () => {
     return (
         <section className="flex items-start justify-center md:items-start
@@ -7,6 +8,7 @@ export const Hero = () => {
         >
 
             <HeroText />
+            <ParallaxBackground />  
           
         </section>
     )
